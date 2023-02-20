@@ -33,3 +33,6 @@ function swapNumbers(n1, n2) {
 }
 let returnFunction = swapNumbers(4, 5);
 console.log(returnFunction);
+let qualquerUm;
+qualquerUm = 'Ola';
+qualquerUm = 10;
