@@ -1,20 +1,23 @@
-class Employee{
+import { Login, User } from "./interfaces";
+
+class Employee implements Login {
     #id: number;
-    name: string;
+    protected name: string;
     address: string;
 
-    
-    
-    
     constructor(id: number, name: string, address: string){
         this.#id = id;
         this.name = name;
         this.address = address;
     }
+    Login(): User {
+        return {id: 1, nome: 'Vinicius', idade: 25, email: ''};
+    }
 
     getInformation() : string{
       return `Nome: ${this.name}, Endereço: ${this.address}`;   
     }
+    
 }
 
 class Manager extends Employee{
