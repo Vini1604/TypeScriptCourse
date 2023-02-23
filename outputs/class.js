@@ -34,3 +34,4 @@ let vinicius = new Employee(1, 'Vinicius', 'Rua');
 let vitor = new Manager(2, 'Vitor', 'Avenida');
 console.log(vinicius.getInformation());
 console.log(vitor.getInformation());
+//# sourceMappingURL=class.js.map

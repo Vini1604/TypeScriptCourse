@@ -5,7 +5,8 @@ export interface User {
     email: string;
 }
 
-let userVinicius: User = { id: 1, nome: 'Vinicius', email: '', idade: 25 };
+let { id: userId, nome: userName}: User = { id: 1, nome: 'Vinicius', email: '', idade: 25 }; //Destructuring
+
 
 interface NormalUser extends User {
     password: string;

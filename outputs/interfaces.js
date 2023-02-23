@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let userVinicius = { id: 1, nome: 'Vinicius', email: '', idade: 25 };
+let { id: userId, nome: userName } = { id: 1, nome: 'Vinicius', email: '', idade: 25 }; //Destructuring
 let userNormal = { id: 1, nome: '', email: '', idade: 25, password: '' };
 let [user1, user2, ...userArray] = [
     { id: 1, nome: 'user1', email: '', idade: 10 },
@@ -11,3 +11,4 @@ let [user1, user2, ...userArray] = [
 console.log(user1);
 console.log(user2);
 console.log(userArray);
+//# sourceMappingURL=interfaces.js.map

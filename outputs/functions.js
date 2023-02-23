@@ -19,3 +19,4 @@ console.log(`Soma2 = ${add(1, 2, 3)}`);
 console.log(`Soma3 = ${add2(1, 2, ...numbers)}`);
 console.log('Subtracao = ' + sub(6, 3));
 console.log(`Multiplicacao = ${times(4, 5)}`);
+//# sourceMappingURL=functions.js.map

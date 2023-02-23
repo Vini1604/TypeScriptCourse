@@ -36,3 +36,4 @@ console.log(returnFunction);
 let qualquerUm;
 qualquerUm = 'Ola';
 qualquerUm = 10;
+//# sourceMappingURL=datatype.js.map

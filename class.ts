@@ -11,7 +11,7 @@ class Employee implements Login {
         this.address = address;
     }
     Login(): User {
-        return {id: 1, nome: 'Vinicius', idade: 25, email: ''};
+        return { id: 1, nome: 'Vinicius', idade: 25, email: ''};
     }
 
     getInformation() : string{
